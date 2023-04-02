@@ -1,0 +1,31 @@
+﻿@model Grocerie
+<style>
+    .addgrocerie--wrapper {
+        height: calc(100vh - 80px);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .card {
+        width: 30vw;
+    }
+</style>
+<div class="addgrocerie--wrapper">
+    <div class="card ">
+        <div class="card-body">
+            <form class="form" method="post" asp-action="AddGrocerie">
+                <label asp-for="@Model.grocerie_name" class="form-label">Name</label>
+                <input asp-for="@Model.grocerie_name" class="form-control" />
+                <label asp-for="@Model.imgUrl" class="form-label">Image Url</label>
+                <input asp-for="@Model.imgUrl" class="form-control" />
+                <label asp-for="@Model.grocerie_price" class="form-label">Price</label>
+                <input asp-for="@Model.grocerie_price" class="form-control" />
+                <label asp-for="@Model.groceries_decription" class="form-label">Decription</label>
+                <input asp-for="@Model.groceries_decription" class="form-control" />
+                <button class="btn btn-primary mt-3 ms-auto" type="submit">ADD</button>
+            </form>
+        </div>
+    </div>
+</div>  

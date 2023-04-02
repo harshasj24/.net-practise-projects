@@ -1,0 +1,67 @@
+﻿@model IEnumerable<Grocerie>
+
+    <style>
+        .admin__header {
+            display: flex;
+            align-items: centers
+        }
+
+            .admin__header h1 {
+                flex-grow: 1;
+            }
+        .admin__body {
+            display:flex;
+            gap:10px;
+            flex-wrap:wrap;
+
+        }
+            .admin__body .card {
+                width:calc(25% - 10px) !important;
+                flex-shrink:0;
+            }
+        .card-img-top{
+            height:200px !important;
+        }
+        .card-body .description{
+            height:30px;
+            text-overflow:ellipsis !important;
+            white-space:nowrap;
+            overflow:hidden;
+           
+        }
+        .card-body .price
+        {
+            font-size:1.5rem;
+            flex-grow:1;
+        }
+        
+    </style>
+
+    <div class="admin--wrapper py-3">
+        <div class="admin__header">
+            <h1>List of all grocires</h1>
+            <div>
+                <a asp-action="AddGrocerie" class="btn btn-outline-light"><i class="bi bi-bag-plus-fill me-1"></i> Add</a>
+            </div>
+        </div>
+
+
+        <div class="admin__body">
+            @foreach(var grocerie in @Model){
+            <div class="card" style="width: 18rem;">
+                <img class="card-img-top" width="200" src="@grocerie.imgUrl" alt="Apple at Rs 20/kilogram | Apple in Nagpur | ID: 19835557748" />
+                <div class="card-body">
+                    <h5 class="card-title">@grocerie.grocerie_name</h5>
+                    <p class="card-text description">@grocerie.groceries_decription</p>
+                    <div class="card-actions d-flex">
+                        <p class="card-text price">@grocerie.grocerie_price RS</p>
+                        <div class="btns">
+                            <a class="btn btn-outline-success "asp-action="ViewGrocerie" asp-route-id="@grocerie.id" icon-btn">View Details</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            }
+        </div>
+
+    </div>
