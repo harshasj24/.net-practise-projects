@@ -19,7 +19,8 @@ namespace Groceries.Controllers
 
 
         public IActionResult Login() {
-            return View();
+            User user = new User();
+             return View();
          }
 
         public string getRoleCode(string userRole) {
@@ -31,6 +32,8 @@ namespace Groceries.Controllers
         [HttpPost]
         public IActionResult Login(User options)
         {
+            Console.WriteLine("called");
+            Grocerie grocerie = new Grocerie();
             var email = options.Email;
             var password = options.Password;
             try
@@ -48,13 +51,14 @@ namespace Groceries.Controllers
                     else
                     {
                         TempData["error"] = "invlaid";
-                        return RedirectToAction("Login");
+                        
+                        return RedirectToAction("Login", User);
                     }
                 }
                 else
                 {
                     TempData["error"] = "invlaid";
-                    return RedirectToAction("Login");
+                    return RedirectToAction("Login", User);
                 }
 
             }

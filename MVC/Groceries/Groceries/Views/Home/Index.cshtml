@@ -1,23 +1,24 @@
 ﻿@{
     ViewData["Title"] = "Home Page";
 }
+
 <style>
     .welcome-card {
-       height:calc(100vh - 80px);
-
+        height: calc(100vh - 80px);
     }
-    .card{
-        width:30vw;
-        height:50vh;
+
+    .card {
+        width: 30vw;
+        height: 50vh;
     }
 </style>
-<div  class="welcome-card d-flex align-items-center justify-content-center flex-column" >
+<div class="welcome-card d-flex align-items-center justify-content-center flex-column">
     <div class="card">
         <div class="card-header">
             Welcome to groceries app
         </div>
         <div class="card-body  d-flex flex-column">
-            <a asp-controller="Auth" asp-action="Login"class="btn btn-primary my-2">
+            <a asp-controller="Auth" asp-action="Login" class="btn btn-primary my-2">
                 Login
             </a>
 
