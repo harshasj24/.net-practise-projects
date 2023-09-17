@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "r5ew8HxmQJV/2yXbB/ukGGTzP0RhUuPirlgi4u1zmFpkGyI7eC/Eb1TEJmjYvuNlZqVgT9TDLEVW4rgxSnx0Ag==",
+  "dgSpecHash": "wRNqa4fteQbZ8GW6GLs/AKNrCKSFpurTPpCp5qkHwhMlsQChIlq2XYjMub4zgZCBF7TYYQErOLTcMyVH8Wi6tQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\USER\\source\\repos\\Groceries\\Groceries\\Groceries.csproj",
+  "projectFilePath": "D:\\.net-practise-projects\\MVC\\Groceries\\Groceries\\Groceries.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\USER\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\USER\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",

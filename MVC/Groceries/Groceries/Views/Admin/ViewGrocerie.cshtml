@@ -1,4 +1,40 @@
-﻿@model Grocerie
+﻿@model Groceries.Models.Grocerie
+
+<style>
+    .col-6 img {
+        width: 450px;
+        height: 380px;
+    }
+
+    .header a {
+        font-size: 2rem;
+    }
+</style>
+
+<div class="header d-flex text-center align-items-center">
+    <a class="btn" asp-action="Index"><i class="bi bi-arrow-left-circle"></i></a>
+    <h1>ViewGrocerie</h1>
+</div>
+
+
+<div class="row">
+    <div class="col-6 text-center">
+        <img src="@Model.imgUrl" />
+        <h5 class="card-title">@Model.grocerie_name</h5>
+    </div>
+    <div class="col-6">
+        <h1 class="card-title">@Model.grocerie_name</h1>
+        <p class="card-text description">@Model.groceries_decription</p>
+        <p class="card-text price">@Model.grocerie_price RS</p>
+        <div class="btns">
+            <a class="btn btn-primary" asp-action="EditGrocerie" asp-route-id="@Model.id"><i class="bi bi-pencil-square"></i> Edit</a>
+            <a class="btn btn-danger" asp-action="DeleteGrocerie" asp-route-id="@Model.id"><i class="bi bi-trash"></i> Delete</a>
+
+        </div>
+
+
+    </div>
+</div>
 
 <style>
     .col-6 img {

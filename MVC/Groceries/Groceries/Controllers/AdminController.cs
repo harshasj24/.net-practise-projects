@@ -7,7 +7,7 @@ namespace Groceries.Controllers
 {
     public class AdminController : Controller
     {
-        ApplicationDbContext _db;
+        readonly ApplicationDbContext _db;
         public AdminController(ApplicationDbContext db)
         {
             _db= db;
@@ -42,27 +42,30 @@ namespace Groceries.Controllers
                 _db.SaveChanges();
                 return RedirectToAction("Index");
             }
-            else {
+            else
+            {
                 return RedirectToAction("Login", "Auth");
             }
         }
 
-        public IActionResult ViewGrocerie(int ?id) {
+        public IActionResult ViewGrocerie(int? id)
+        {
             if (checkAdmin())
             {
                 Grocerie selectedGrocerie = _db.GroceriesTable.Find(id);
                 return View(selectedGrocerie);
             }
-            else { 
-            return RedirectToAction("Login"); 
+            else
+            {
+                return RedirectToAction("Login");
             }
 
         }
-        public IActionResult EditGrocerie(int?id)
+        public IActionResult EditGrocerie(int? id)
         {
             if (checkAdmin())
             {
-               Grocerie grocerie= _db.GroceriesTable.Find(id);
+                Grocerie grocerie = _db.GroceriesTable.Find(id);
                 return View(grocerie);
             }
             else
@@ -72,13 +75,13 @@ namespace Groceries.Controllers
 
         }
         [HttpPost]
-        public IActionResult EditGrocerie(Grocerie grocerie )
+        public IActionResult EditGrocerie(Grocerie grocerie)
         {
             if (checkAdmin())
             {
-                 _db.GroceriesTable.Update(grocerie);
+                _db.GroceriesTable.Update(grocerie);
                 _db.SaveChanges();
-                return RedirectToAction("ViewGrocerie", "Admin",new {id=grocerie.id });
+                return RedirectToAction("ViewGrocerie", "Admin", new { id = grocerie.id });
             }
             else
             {
@@ -87,7 +90,8 @@ namespace Groceries.Controllers
 
         }
 
-        public IActionResult DeleteGrocerie(int? id) {
+        public IActionResult DeleteGrocerie(int? id)
+        {
             if (checkAdmin())
             {
                 Grocerie grocerie = _db.GroceriesTable.Find(id);
@@ -95,7 +99,8 @@ namespace Groceries.Controllers
                 _db.SaveChanges();
                 return RedirectToAction("Index");
             }
-            else {
+            else
+            {
                 return RedirectToAction("Login", "Auth");
             }
         }

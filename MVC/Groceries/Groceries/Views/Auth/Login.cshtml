@@ -1,27 +1,24 @@
-﻿@model User
+﻿@model Groceries.Models.User
 
 <style>
     .login--wrapper {
-      
         height: calc(100vh - 80px);
-        display:flex;
-        flex-direction:column;
-        align-items:center;
-        justify-content:center;
-
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
     }
 </style>
 <div class="login--wrapper">
-<div class="card w-25">
-    <form class="form" method="post">
+    <div class="card w-25">
+        <form class="form" method="post">
 
-        <label asp-for="@Model.Email" class="form-label">Emial</label>
-        <input asp-for="@Model.Email" class="form-control" />
-        <label asp-for="@Model.Password" class="form-label">Password</label>
-        <input asp-for="@Model.Password" class="form-control" />
-        <button type="submit" asp-controller="Auth" asp-action="Login">Login</button>
+            <label asp-for="@Model.Email" class="form-label">Emial</label>
+            <input asp-for="@Model.Email" class="form-control" />
+            <label asp-for="@Model.Password" class="form-label">Password</label>
+            <input asp-for="@Model.Password" class="form-control" />
+            <button type="submit" asp-controller="Auth" asp-action="Login">Login</button>
 
-    </form>
+        </form>
+    </div>
 </div>
-</div>
-

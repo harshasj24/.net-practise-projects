@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\USER\\source\\repos\\Groceries\\Groceries\\Groceries.csproj": {}
+    "D:\\.net-practise-projects\\MVC\\Groceries\\Groceries\\Groceries.csproj": {}
   },
   "projects": {
-    "C:\\Users\\USER\\source\\repos\\Groceries\\Groceries\\Groceries.csproj": {
+    "D:\\.net-practise-projects\\MVC\\Groceries\\Groceries\\Groceries.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\USER\\source\\repos\\Groceries\\Groceries\\Groceries.csproj",
+        "projectUniqueName": "D:\\.net-practise-projects\\MVC\\Groceries\\Groceries\\Groceries.csproj",
         "projectName": "Groceries",
-        "projectPath": "C:\\Users\\USER\\source\\repos\\Groceries\\Groceries\\Groceries.csproj",
+        "projectPath": "D:\\.net-practise-projects\\MVC\\Groceries\\Groceries\\Groceries.csproj",
         "packagesPath": "C:\\Users\\USER\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\USER\\source\\repos\\Groceries\\Groceries\\obj\\",
+        "outputPath": "D:\\.net-practise-projects\\MVC\\Groceries\\Groceries\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\USER\\AppData\\Roaming\\NuGet\\NuGet.Config",

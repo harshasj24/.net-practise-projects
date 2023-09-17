@@ -5,8 +5,9 @@
     "\\Groceries\\Controllers",
     "\\Groceries\\Data",
     "\\Groceries\\Models",
+    "\\Groceries\\obj",
+    "\\Groceries\\Properties",
     "\\Groceries\\Views\\Admin"
   ],
-  "SelectedNode": "\\Groceries\\Controllers\\AuthController.cs",
   "PreviewInSolutionExplorer": false
 }

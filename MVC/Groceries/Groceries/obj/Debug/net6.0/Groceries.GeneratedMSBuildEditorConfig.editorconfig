@@ -9,69 +9,69 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Groceries
 build_property.RootNamespace = Groceries
-build_property.ProjectDir = C:\Users\USER\source\repos\Groceries\Groceries\
+build_property.ProjectDir = D:\.net-practise-projects\MVC\Groceries\Groceries\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\USER\source\repos\Groceries\Groceries
+build_property.MSBuildProjectDirectory = D:\.net-practise-projects\MVC\Groceries\Groceries
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/USER/source/repos/Groceries/Groceries/Views/Admin/AddGrocerie.cshtml]
+[D:/.net-practise-projects/MVC/Groceries/Groceries/Views/Admin/AddGrocerie.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cQWRkR3JvY2VyaWUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/USER/source/repos/Groceries/Groceries/Views/Admin/EditGrocerie.cshtml]
+[D:/.net-practise-projects/MVC/Groceries/Groceries/Views/Admin/EditGrocerie.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cRWRpdEdyb2NlcmllLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/USER/source/repos/Groceries/Groceries/Views/Admin/Index.cshtml]
+[D:/.net-practise-projects/MVC/Groceries/Groceries/Views/Admin/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/USER/source/repos/Groceries/Groceries/Views/Admin/ViewGrocerie.cshtml]
+[D:/.net-practise-projects/MVC/Groceries/Groceries/Views/Admin/ViewGrocerie.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cVmlld0dyb2NlcmllLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/USER/source/repos/Groceries/Groceries/Views/Auth/Index.cshtml]
+[D:/.net-practise-projects/MVC/Groceries/Groceries/Views/Auth/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXV0aFxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/USER/source/repos/Groceries/Groceries/Views/Auth/Login.cshtml]
+[D:/.net-practise-projects/MVC/Groceries/Groceries/Views/Auth/Login.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXV0aFxMb2dpbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/USER/source/repos/Groceries/Groceries/Views/Auth/Register.cshtml]
+[D:/.net-practise-projects/MVC/Groceries/Groceries/Views/Auth/Register.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXV0aFxSZWdpc3Rlci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/USER/source/repos/Groceries/Groceries/Views/Home/Index.cshtml]
+[D:/.net-practise-projects/MVC/Groceries/Groceries/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/USER/source/repos/Groceries/Groceries/Views/Home/Privacy.cshtml]
+[D:/.net-practise-projects/MVC/Groceries/Groceries/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/USER/source/repos/Groceries/Groceries/Views/Shared/Error.cshtml]
+[D:/.net-practise-projects/MVC/Groceries/Groceries/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/USER/source/repos/Groceries/Groceries/Views/Shared/_Snackbar.cshtml]
+[D:/.net-practise-projects/MVC/Groceries/Groceries/Views/Shared/_Snackbar.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9TbmFja2Jhci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/USER/source/repos/Groceries/Groceries/Views/Shared/_ValidationScriptsPartial.cshtml]
+[D:/.net-practise-projects/MVC/Groceries/Groceries/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/USER/source/repos/Groceries/Groceries/Views/Shared/_ViewImports.cshtml]
+[D:/.net-practise-projects/MVC/Groceries/Groceries/Views/Shared/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WaWV3SW1wb3J0cy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/USER/source/repos/Groceries/Groceries/Views/_ViewStart.cshtml]
+[D:/.net-practise-projects/MVC/Groceries/Groceries/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/USER/source/repos/Groceries/Groceries/Views/Shared/_Layout.cshtml]
+[D:/.net-practise-projects/MVC/Groceries/Groceries/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-d2igo1zkjy
